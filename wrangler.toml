@@ -5,10 +5,10 @@ compatibility_date = "2026-03-13" # 兼容性日期，用于指定使用的 Clou
 # KV 命名空间绑定声明 (KV Namespace Binding)
 [[kv_namespaces]]
 binding = "ENI_KV" # 代码中调用该 KV 的变量名
-id = "4f2122e1dcf24551b52092e4f8e089f1" # 你的 KV 命名空间 ID (请替换为实际的 32 位字母数字组合)
+id = "5b9da9881d984e6c8c921927b223b5b3" # 你的 KV 命名空间 ID (请替换为实际的 32 位字母数字组合)
 
 # D1 数据库绑定声明 (D1 Database Binding)
 [[d1_databases]]
 binding = "DB" # 代码中调用该数据库的变量名
-database_name = "emby_proxy_logs" # 你的 D1 数据库的名称
-database_id = "ce0f9324-f1ba-4227-955b-c0dc47b06cdd" # 你的 D1 数据库 ID (请替换为实际的 UUID 格式)
+database_name = "abc" # 你的 D1 数据库的名称
+database_id = "7dde9f5f-2c63-41e6-990a-e0cad5c2a985" # 你的 D1 数据库 ID (请替换为实际的 UUID 格式)
